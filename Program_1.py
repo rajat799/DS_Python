@@ -1,6 +1,6 @@
 import numpy as np
 
-arr1 = np.array([10, 20, 30, 49, 50])
+arr1 = np.array([10, 20, 30, 40, 50])
 arr2 = np.array([[1, 2], [3, 4]])
 
 print("1D Array: ", arr1)
@@ -31,4 +31,7 @@ print("Random 3x3 Matrix \n", rand_arr)
 reshaped = rand_arr.reshape(1, 9)
 print("reshaped to 1x9: ", reshaped)
 
-
+# Math functions
+print("mean: ", np.mean(arr1))
+print("Standard Deviation: ", np.std(arr1))
+print("Max value: ", np.max(arr1))
