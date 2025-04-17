@@ -24,6 +24,11 @@ print("Element wise addition: ", arr3 + arr4)
 print("First element of arr1: ", arr1[0])
 print("slice arr1: ", arr1[1:])
 
+# Random and Reshaping
+rand_arr = np.random.rand(3, 3)
+print("Random 3x3 Matrix \n", rand_arr)
 
+reshaped = rand_arr.reshape(1, 9)
+print("reshaped to 1x9: ", reshaped)
 
 
