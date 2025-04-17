@@ -19,3 +19,11 @@ arr3 = np.array([10, 15, 20, 25])
 arr4 = np.array([1, 1, 1, 1])
 
 print("Element wise addition: ", arr3 + arr4)
+
+# Indexing and slicing
+print("First element of arr1: ", arr1[0])
+print("slice arr1: ", arr1[1:])
+
+
+
+
